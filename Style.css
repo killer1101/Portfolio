@@ -1,0 +1,48 @@
+h1{
+    color: rgb(68, 0, 255);
+  
+    
+}
+
+.navigation {
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: aquamarine;
+    text-emphasis-color: white;
+    
+ }
+
+.grid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.item{
+
+   display: flex;
+   flex-direction: column-reverse;
+   flex-wrap: wrap;
+    
+
+}
+
+.item:hover p{
+    opacity : 0.5;
+}   
+.item:hover img{
+  transform : scale(1.2)
+} 
+body{
+     background-image: linear-gradient(#eecda3, #ef629f);
+
+}
+
+a:link{
+    color:blue
+
+}
